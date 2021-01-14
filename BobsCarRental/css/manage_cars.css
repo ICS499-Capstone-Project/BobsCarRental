@@ -1,0 +1,208 @@
+html {
+     width: 100%;
+}
+ body {
+     margin: 0px;
+     background-color: #ebe6e6;
+     background-repeat: no-repeat;
+     background-size: 1537px 1060px;
+     background-attachment: fixed;
+     background-position: center;
+     width: 100%;
+}
+ form {
+     margin-top: 80px;
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .navbar {
+     overflow: hidden;
+     background-color: #c7bcbc;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     margin: 0px;
+}
+ .navbar a {
+     float: left;
+     font-size: 20px;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+ .dropdown {
+     float: right;
+     margin: 0 60px 0 0;
+     overflow: hidden;
+     width: 240px;
+}
+ .navbar a:hover {
+     background-color: #3e8e41;
+}
+ .display {
+     display: block;
+}
+ button {
+     background-color: #ac298b;
+     border: none;
+     color: white;
+     padding: 16px 20px;
+     text-decoration: none;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+ #firm {
+     float: left;
+}
+ #help {
+     background: url(logo6.png) center;
+     width: 55px;
+     height: 55px;
+     display: block;
+     float: left;
+}
+ #myBtn1 {
+     float: right;
+}
+ #myBtn {
+     float: right;
+}
+ .modal2 {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     padding-top: 100px;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgb(0, 0, 0);
+     background-color: rgba(0, 0, 0, 0.4);
+}
+ .modal0 {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     padding-top: 100px;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgb(0, 0, 0);
+     background-color: rgba(0, 0, 0, 0.4);
+}
+ .modal-content {
+     background-color: #fefefe;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 30%;
+}
+ .modal0-content {
+     background-color: #fefefe;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 24%;
+}
+ .close,.close2 {
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+ .close:hover, .close:focus, .close2:hover, .close2:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+}
+ a {
+     margin-left: 40px;
+}
+ .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: rgb(19, 19, 20);
+     color: white;
+     text-align: center;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ .signin {
+     background-color: #f1f1f1;
+     text-align: center;
+}
+/* Add padding to containers */
+ .cancelbtn {
+     background-color: #295dac;
+     border: none;
+     color: white;
+     padding: 16px 20px;
+     text-decoration: none;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+ .container {
+     position: relative;
+     text-align: center;
+     color: white;
+}
+ .centered {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+ .main {
+     margin-left: 160px;
+     font-size: 28px;
+     padding: 0px 10px;
+}
+ input[type=submit] {
+     background-color: #c03baa;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+ input[type=submit]:hover {
+     background-color: #45a049;
+}
+ .form {
+     border-radius: 5px;
+     background-color: #c7d6ed;
+     padding: 20px;
+}
+ .hide1 {
+     display: none;
+}
+ .show1 {
+     display: block;
+}
+ .hide2 {
+     display: none;
+}
+ .hide3 {
+     display: none;
+}
+ .show2 {
+     display: block;
+}
+ .show3 {
+     display: block;
+}
+ .hide4 {
+     display: none;
+}
+ .show4 {
+     display: block;
+}
